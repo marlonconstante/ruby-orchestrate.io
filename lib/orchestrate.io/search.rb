@@ -39,7 +39,7 @@ module OrchestrateIo
 
     def options
       options = {}
-      options[:query] = { query: :query }
+      options[:query] = { query: :query, limit: :limit, offset: :offset }
       options
     end
   end
